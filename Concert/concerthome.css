@@ -1,0 +1,318 @@
+html, body {
+	width: 1349px;
+	height: 700px;
+   }
+
+body{
+	margin:0px;
+	text-align:center;
+}
+
+p{
+	font-size:22px;
+}	
+
+.header{
+	background-color: #293f50;
+	position:relative;
+	height:500px;
+}
+
+.headone{
+	position:absolute;
+	height:200px;
+	top:0;
+	width:100%;
+}
+
+.headoneleft{
+	position:relative;
+	float:left;
+	width:40%;
+	height:100%;
+}
+
+.headoneleft > a{
+	position:absolute;
+	font-size:60px;
+	color: rgb(147, 151, 254);
+	text-decoration:none;
+	top:25%;
+	right:2%;
+}
+
+.headoneright{
+	width:60%;
+	right:0;
+	position:absolute;
+	height:100%;
+}
+
+.hrigtop{
+	position:absolute;
+	bottom:40%;
+	left:13%;
+	font-size:30px;
+	color: rgb(147, 151, 254);
+}
+
+.hrigbottom{
+	height:50%;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	text-align:center;
+}
+
+.hrigbottom a{
+	display:inline;
+	padding:6px;
+	color:white;
+	text-decoration:none;
+}
+
+.hrigbottom a:hover{
+	color:rgb(147, 151, 254);
+}
+
+.hrigbottom li{
+	font-size:20px;
+	padding:6px;
+	display:inline;
+}
+
+.hrigbottom ul{
+	position:absolute;
+	bottom:10%;
+	left:5%;
+}
+
+/*###################################################*/
+
+.headtwo{
+	height:300px;	
+	width:60%;
+	margin-top:200px;	
+	position:absolute;
+	left:20%;
+}
+
+.headtwo>h2{
+	color: rgb(147, 151, 254);
+	font-size:26px;
+	text-align:center;
+	margin:35px 0px; 
+}
+
+.headtwo>p{
+	padding-left:40px;
+	padding-right:40px;
+	color:white;
+}
+
+.headtwo a{
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+}
+
+.regbut{
+	bottom:15%;
+	position:absolute;
+	left:40%;
+}
+
+.regbut > button{
+	background-color: #293f50;
+	height:50px;
+	width:150px;
+	border:1px solid white;
+	border-radius:10px;
+}
+
+button:hover{
+	opacity:0.5;
+}
+
+
+/*###############################################################*/
+
+.content{
+	height:600px;
+	position:relative;
+}
+
+.box{
+	position:absolute;
+	width:20%;
+	padding:3px;
+	top:10%;
+	text-align:left;
+}
+
+.box img{
+	width:100%;
+	height:180px;
+}
+
+div [name = 'speaker']{
+	left:15%;
+}
+
+div [name = 'shedule']{
+	left:40%;
+}
+
+div [name = 'venue']{
+	left:65%;
+}
+
+/*###################################################*/
+
+
+.footer{
+	background-color: #293f50;
+	height:100px;
+}
+
+.footer address{
+	color:white;
+	width:40%;
+	padding-top:40px;
+}
+
+.footer ul{
+	width:60%;
+	padding-top:15px;
+	float:right;
+}
+
+.footer li{
+	display:inline;
+}
+
+.footer a{
+	font-size:20px;
+	padding:10px;
+	color:white;
+	text-decoration:none;
+	display:inline;
+}
+
+.footer a:hover{
+	color: rgb(147, 151, 254);
+}
+
+
+
+
+
+@media only screen and (max-width:992px)
+{
+	
+	
+
+.headoneleft > a{
+	font-size:50px;
+}
+
+.headoneleft{
+	width:30%;
+}
+
+.headoneright{
+	width:70%;
+}
+
+.hrigtop{
+	right:20%;
+}
+
+.hrigbottom ul{
+	bottom:10%;
+	right:0;
+}
+
+.headtwo{
+	width:90%;
+	left:5%;
+}
+
+.box{
+	width:28%;
+}
+
+
+div [name = 'speaker']{
+	left:5%;
+}
+
+div [name = 'shedule']{
+	left:35%;
+}
+
+div [name = 'venue']{
+	right:5%;
+}
+
+
+
+
+@media only screen and (max-width:669px)
+{
+	
+.header{
+	background-color: rgb(100,100,100);
+	position:relative;
+	height:500px;
+	
+	background-color:pink;
+}
+
+.headoneleft{
+	width:25%;
+}
+
+.headoneright{
+	width:75%;
+}
+
+.headoneleft > a{
+	font-size:40px;
+	padding-top:0px;
+	left:0;
+}
+
+.hrigbottom a{
+	padding:3px;
+}
+
+.hrigtop{
+	border:1px solid;
+	width:70%;
+	left:15%;
+}
+
+.hrigbottom ul{
+	bottom:10%;
+	right:0;
+	padding:0px;
+	width:100%;
+	left:0;
+}
+
+.hrigbottom li{
+	padding:0px;
+}
+
+.headtwo{
+	width:99%;
+	left:0.1%;
+}
+
+.regbut{
+	bottom:0%;
+	left:40%;
+}
+
+}

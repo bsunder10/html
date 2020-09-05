@@ -1,0 +1,144 @@
+html, body {
+	width: 1349px;
+	height: 700px;
+   }
+
+body{
+	margin:0;
+}
+
+.header{
+	background-color: #293f50;
+	position:relative;
+}
+
+.headleft{
+	width:40%;
+	text-align:right;
+}
+
+.headleft > a{
+	color:white;
+	text-decoration:none;
+	font-size:60px;
+}
+
+.hrigtop{
+	position:absolute;
+	top:40%;
+	left:60%;
+	color: rgb(147, 151, 254);
+	font-size:30px;
+}
+
+.hrigbot{
+	position:absolute;
+	bottom:0;
+	left:50%;
+	width:40%;
+	text-align:right;
+}
+
+.hrigbot li{
+	display:inline;
+}
+
+.hrigbot a{
+	color:white;
+	text-decoration:none;
+	padding:2%;
+	font-size:20px;
+}
+
+
+/* ******************************* SPEAKER HEADING ************************ */
+.speaker_heading{
+	margin-top:0px;
+	height: 130px;
+	background-image: linear-gradient(to right, rgba(136, 218, 136, 0.753) ,rgba(173, 173, 122, 0.753));
+	padding: 5px;
+	padding-bottom: 32px;
+	color: rgb(53, 53, 53);
+}
+
+.speaker_heading h1{
+	text-align: center;
+}
+
+.speaker_heading p{
+	text-align: center;
+	font-size: 22px;
+	width: 60%;
+	margin:auto;
+}
+
+/* ***************************** SPEAKER ************************ */
+.speaker_details{
+    width: 80%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.left{
+    width: 60%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.right{
+    padding: 20px 0;
+    padding-top: 100px;
+    position: relative;
+    width: 35%;
+    float: right;
+}
+
+.right img{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right address{
+    text-align: center;
+}
+
+
+
+/* ********************** FOOTER ************************************ */
+.footer{
+	background-color: #293f50;
+	height:100px;
+}
+
+.footer address{
+	color:white;
+	width:40%;
+	text-align: center;
+	padding-top:40px;
+}
+
+.footer ul{
+	width:50%;
+	padding-top:15px;
+	float:right;
+}
+
+.footer li{
+	display:inline;
+}
+
+.footer a{
+	font-size:20px;
+	padding:10px;
+	color:white;
+	text-decoration:none;
+	display:inline;
+}
+
+.footer a:hover{
+	color: rgb(147, 151, 254);
+}
